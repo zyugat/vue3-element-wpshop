@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .hero {
+        display: block;
+        width: 100%;
+        height: 36rem;
+        margin: 0;
+        padding: 0;
+        color: #fff;
+        background: #191f2b url(@/assets/background_header.svg) no-repeat center;
+        background-size: cover;
+      }
+      .content {
+        max-width: 1180px;
+        height: 36rem;
+        padding: 0;
+        margin: 0 auto;
+        border: 1px solid red;
+      }
+      .left {
+        float: left;
+        width: 60%;
+      }
+      .right {
+        float: left;
+      }
+      img {
+        width: 430px;
+        height: 430px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="hero">
+      <!-- 这里我们使用侧边栏+Main内容栏 -->
+      <div class="content">
+        <div class="left">
+          <h1>
+            <span>外贸建站服务</span>
+            WordPress设计与开发
+          </h1>
+          <p>
+            专注于WordPress主题设计与插件开发。云集海内外工程师为企业客户提供谷歌推广服务，到目前已有99年WordPress外贸建站经验。
+          </p>
+        </div>
+        <div class="right">
+          <img src="@/assets/hero_main.svg" alt="" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
